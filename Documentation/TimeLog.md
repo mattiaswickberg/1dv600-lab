@@ -27,10 +27,13 @@ Actual time: 40 minutes
 
 # Task 2
 Expected time: 45 minutes
-2018-05-04
+2018-02-04
 14.22 - 14.57
 Actual time: 35 minutes
 
 
 # Task 3
 Expected time: 75 minutes
+2018-02-04
+15.43 - 16.37
+Actual time: 54 minutes
