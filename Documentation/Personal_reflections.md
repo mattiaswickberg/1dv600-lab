@@ -2,6 +2,7 @@ Mattias Wickberg,
 1dv600
 
 # Personal reflections on Project 1dv600
+#Assignment 1
 ## Task 1
 ### Subtask A
 
@@ -24,3 +25,9 @@ The difficulty with writing a vision is that I still have no clear idea of how c
 ## Task 3 
 
 The project planning was mostly just a nice was of doing something with a bit more structure than I probably would have otherwise. Planning has been a crucial part of my life for many years now, juggling a complex work, studies and home life. The risk analysis was one part that I wouldn't have put into words had this not been part of the course literature, but it did help me focus on what the real risks are. This of course being a smallish project where I work alone rather than a large project with many people involved, it is a radically more simple plan than the ones I do work with for a living. Time wise I did overestimate the time it would take to do some parts of the first assignment, but the stimates were based on me usually being interrupted while I work, and this last two days I've had perfect calm to focus on this course!
+
+#Assignment 2
+
+##Task 1
+###Subtask A
+I have encountered UML-diagrams previously, and I do find them very useful in the planning stage for development. Use cases are of course very similar to ways that I've worked in Interaction Design, since I have a lot more experience from that field than programming, and so they do feel quite natural to have here as well. In general, I think the difficult part here is to decide on the scope of the planning stages of this project, knowing that a full scope library system would need more functionality than we can really make during a course like this. 

@@ -34,4 +34,5 @@ Actual time: 54 minutes
 
 ### Subtask A
 Expected time: 2 hours
-2018-02-08, 19.50 - 
+2018-02-08, 19.50 - 21.46
+Actual time: 1 hr, 56 minutes

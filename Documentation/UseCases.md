@@ -22,15 +22,16 @@ Postcondition: User has found a book to borrow
 
 #### Main scenario
 1. The person types in "Science Fiction" into the search field
-2. A list of Science Fiction novels appear
+2. A list of Science Fiction novels appears
 3. User clicks on titles and reads about them
 4. User finds a book to read
 
 #### Secondary scenarios
 ##### 1.1 User spells search words wrong
 1. System returns empty list, explaining that no books are in the library that matches that search term, and suggests user checks spelling or search for something different
+2. User corrects spelling and searches again
 ##### 1.2 System contains no books of chosen genre
-1. 1. System returns empty list, explaining that no books are in the library that matches that search term, and suggests user checks spelling or search for something different
+1. System returns empty list, explaining that no books are in the library that matches that search term, and suggests user checks spelling or search for something different
 
 
 ### Detailed use case 2: User wants to borrow a certain book
@@ -44,11 +45,15 @@ Postcondition: User has borrowed a book
 #### Main scenario
 1. The person looks up the specific book in system
 2. User requests to borrow book
-3. System checks that user has no outstanding fines that blocks borrowing
-4. System returns book to user
+3. System checks availability of book
+4. System checks that user has no outstanding fines that blocks borrowing
+5. System returns book to user
 
 #### Secondary scenarios
-##### 3.1 User has outstanding fines to pay
+##### 3.1 Book is not available
+1. System returns a message that book is not available
+##### 4.1 User has outstanding fines to pay
 1. System returns messages that user has to pay fines before borrowing the book.
 2. System gives user options to pay
 3. User pays fines and continues with transaction
+ 
