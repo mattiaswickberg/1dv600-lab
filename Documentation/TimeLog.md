@@ -39,5 +39,5 @@ Actual time: 1 hr, 56 minutes
 
 ### Subtask B
 Expected time: 45 minutes
-2018-02-08, 21.55 - 22.25
-Actual time: 30 minutes
+2018-02-08, 21.55 - 22.30
+Actual time: 35 minutes
