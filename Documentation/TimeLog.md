@@ -54,4 +54,4 @@ Actual time: 24 minutes
 
 ## Task 3
 Expected time: 75 minutes
-2018-02-09, 22.15 - 
+2018-02-09, 22.15 - 23.22
