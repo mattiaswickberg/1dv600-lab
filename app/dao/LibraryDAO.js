@@ -16,15 +16,28 @@
         // Get the entire file from the file system.
         readXMLFile: function(callback) {
             var parser = new xml2js.Parser();
-            var books;
             fs.readFile(path.join(__dirname, 'books.xml'), function (err, data) {
                 parser.parseString(data, function (err, result) {
-                    // console.dir(result);
-                    books = JSON.stringify(result)
+                    var books = []
+                    var jsonBooks;
+                    result.catalog.book.forEach( function(element) {
+                        var book = {
+                            "id": element.$.id,
+                            "author": element.author[0],
+                            "title": element.title[0],
+                            "genre": element.genre[0],
+                            "price": element.price[0],
+                            "publish_date": element.publish_date[0],
+                            "description": element.description[0],                            
+                        }
+                        books.push(book)
+                        jsonBooks = {books};                        
+                    })
+                     console.log(jsonBooks)
+                  
+                    callback(jsonBooks);
                 })
             })
-             console.log("Books: " + books);
-            // callback(books);
         },
 
         // Write the entire file from the file system.
