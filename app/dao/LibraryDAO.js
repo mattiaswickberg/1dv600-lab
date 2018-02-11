@@ -30,12 +30,10 @@
                             "publish_date": element.publish_date[0],
                             "description": element.description[0],                            
                         }
-                        books.push(book)
-                        jsonBooks = {books};                        
+                        books.push(book)                       
                     })
-                     console.log(jsonBooks)
                   
-                    callback(jsonBooks);
+                    callback(books);
                 })
             })
         },
