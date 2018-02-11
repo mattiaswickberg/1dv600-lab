@@ -40,3 +40,5 @@ Sequence diagrams, again feel quite useful. But like with subtask B I'm starting
 
 ##Task 2
 This way of doing things does really force me to think through thigs before I do the coding. Of course, it also means I can't test and see if I'm mistaken in some assumption of how things work - but then if I do find out in the end that I made a planning mistake I guess I can go back and redo the sequence diagram. It probably reduces the amount of errors in the end anyways. It is akin to what I tell my students about essay writing (my profession is language teaching), that is is a process that is more about planning than actual writing if you want the end result to be of good quality and reduce the number of errors and unnecessary work you do. 
+
+## Task 3

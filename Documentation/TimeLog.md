@@ -53,7 +53,7 @@ Expected time: 30 minutes
 Actual time: 24 minutes
 
 ## Task 3
-Expected time: 90 minutes
+Expected time: 120 minutes
 2018-02-09, 22.15 - 23.22
 2018-02-10, 10.00 - 11.20
 2018-02-11, 09.43 - 
