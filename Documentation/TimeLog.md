@@ -58,3 +58,9 @@ Expected time: 120 minutes
 2018-02-10, 10.00 - 11.20
 2018-02-11, 09.53 - 11.15
 Actual time: 229 minutes
+
+# Assignment 3
+
+## Task 1
+Expected time: 60 minutes
+2018-02-22, 20.45 - 22.01

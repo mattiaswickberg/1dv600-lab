@@ -46,3 +46,9 @@ Ok so this one took a lot longer than I thought, possibly pasrtly because I star
 * What takes time is rarely what you think will take time - it's true about a lot of things in life.
 * Converting information between formats is important, but can be time consuming (my partner who works as a bioinfomatician says that this is mostly what working as a scientist is about).
 * Planning the flow between functions and what information travels is important, but planning the overall architecture is more important than the details.
+
+
+# Assignment 3
+
+## Task 1
+I realise that I will have to give this another overview, not quite understanding exactly what you want me to do here - I find some of phrasing in the tasks of this course to be a bit unclear - it's really the biggest challenge of all thus far - understanding not the theory or the tech, but what you want me to do. Not uncommon - I find that is mostly the challenge when teaching myself, regardless of the audience. I'll have to come back for another view of this after I've looked at all the lectures and not just the first.
