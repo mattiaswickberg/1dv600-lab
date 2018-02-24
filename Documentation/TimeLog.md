@@ -65,3 +65,14 @@ Actual time: 229 minutes
 Expected time: 60 minutes
 2018-02-22, 20.51 - 22.01
 Actual time: 70 minutes
+
+## Task 2
+Expected time: 60 minutes
+
+
+## Task 3
+Expected time: 150 minutes
+
+
+## Task 4
+Expected time: 120 minutes

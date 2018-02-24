@@ -1,7 +1,7 @@
-# Test Plan
+# Test Plan 
 
 ## Test objectives
-The objectives for the tests in this stage of the development process are threefold. One is to prepare manual tests for the most important parts of the functionality, to make sure that not only the technical aspects of the system is on par, but that it is also usable from the client side. Two is to implement unit tests for both one of the implemented functions, to continuously check that I don't break what's working as I go forth, and for the next planned function. The third is to write API tests to check that everything will work as intended going forward.
+The objectives for the tests in this stage of the development process are threefold. One is to prepare manual tests for the most important parts of the functionality, to make sure that not only the technical aspects of the system is on par, but that it is also usable from the client side. Two is to implement unit tests for both one of the implemented functions, to continuously check that I don't break what's working as I go forth, and for the next planned function, bring the function to add a book to the library. The third is to write API tests to check that everything will work as intended going forward.
 
 ## Static testing
 Standard JS for code structure evaluation, check before each commit. 
