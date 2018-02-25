@@ -51,4 +51,7 @@ Ok so this one took a lot longer than I thought, possibly pasrtly because I star
 # Assignment 3
 
 ## Task 1
-I realise that I will have to give this another overview, not quite understanding exactly what you want me to do here - I find some of phrasing in the tasks of this course to be a bit unclear - it's really the biggest challenge of all thus far - understanding not the theory or the tech, but what you want me to do. Not uncommon - I find that is mostly the challenge when teaching myself, regardless of the audience. I'll have to come back for another view of this after I've looked at all the lectures and not just the first.
+OK, so I'm not completely done, but I think this will work better for me if I come back to the plan and fill in some more details after I've done the first two tests and have a clearer view of what I should test. I also think I'll come back and replan the API-tests after I'm done with the Unit tests, instead of planning every test before I start.
+
+## Task 2
+Wrote two fairly simple manual tests. I first thought of these as real user tests, but I realised after reading about it that this is not the case - coming from the field of linguistics, pedagogy, UX and behavioural sciences testing does mean something a bit different for me than it does in the fireld of development :). Anyway, I do think that manual testing is what comes most natural for me, since it tends to be the an integral part of my natural work flow, though I'm not very thorough in documenting it properly. I see the importance of doing more of these, and it feels a bit wrong to stop at just these two - but I'm as always pressed for time.

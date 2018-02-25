@@ -3,17 +3,17 @@
 ## List of use cases
 I'm aware that at least for the scope of this project, there will only be one type of user. 
 Use cases for the scope of this project:
-* User wants to list all the books in the library
-* User wants to find a specific book and see details
-* User wants to find book(s) with a certain title
-* User wants to find all books of a certain author
-* User wants to add new book
-* User wants to delete book
-* User wants to change details of book
+1. User wants to list all the books in the library
+2. User wants to add new book
+3. User wants to find a specific book and see details
+4. User wants to find book(s) with a certain title
+5. User wants to find all books of a certain author
+6. User wants to delete book
+7. User wants to change details of book
 
 Use cases that would be reasonable to expect for a proper library system
-* User wants to find all books of a certain type
-* User wants to put in request for a book (if not a personal library)
+8. User wants to find all books of a certain type
+9. User wants to put in request for a book (if not a personal library)
 
 ### Detailed use case 1: Search for book by genre
 
