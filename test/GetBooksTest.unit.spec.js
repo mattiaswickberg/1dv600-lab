@@ -1,15 +1,13 @@
-var expect    = require("chai").expect;
-var GetBooksResource = require("../app/resources/GetBooksResource");
+var expect = require('chai').expect
+var GetBooksResource = require('../app/resources/GetBooksResource')
 
-describe("Get Books", function () {
-
-    describe("Tests the get books function to see if it returns an array object", function () {
-
-        it("Returns an array object", function (done) {
-            GetBooksResource(function(data) {
-                expect(Object.prototype.toString.call(data)).to.equal('[object Array]')
-                done()
-             })
-        });
-    });
-});
+describe('Get Books', function () {
+  describe('Tests the get books function to see if it returns an array object', function () {
+    it('Returns an array object', function (done) {
+      GetBooksResource(function (data) {
+        expect(Object.prototype.toString.call(data)).to.equal('[object Array]')
+        done()
+      })
+    })
+  })
+})

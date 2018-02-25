@@ -1,13 +1,12 @@
 (function () {
-    "use strict";
+  'use strict'
 
-    var obj = {
-        add: function (a,b) {
-            return a+b;
-        }
-
+  var obj = {
+    add: function (a, b) {
+      return a + b
     }
 
-    module.exports = obj;
+  }
 
-}());
+  module.exports = obj
+}())
