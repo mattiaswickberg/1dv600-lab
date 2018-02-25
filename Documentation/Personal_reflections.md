@@ -57,6 +57,6 @@ OK, so I'm not completely done, but I think this will work better for me if I co
 Wrote two fairly simple manual tests. I first thought of these as real user tests, but I realised after reading about it that this is not the case - coming from the field of linguistics, pedagogy, UX and behavioural sciences testing does mean something a bit different for me than it does in the fireld of development :). Anyway, I do think that manual testing is what comes most natural for me, since it tends to be the an integral part of my natural work flow, though I'm not very thorough in documenting it properly. I see the importance of doing more of these, and it feels a bit wrong to stop at just these two - but I'm as always pressed for time.
 
 ## Task 3
-This was really good - I have been meaning to start looking more closely at unit testing and testing frameworks, and mostly this was not too tricky, although I know I have done very simple tests thus far. The trickies part was that I got a false positive until I figured out how to use the 'done' functionality when testing code with callbacks. Good learning :)
+This was really good - I have been meaning to start looking more closely at unit testing and testing frameworks, and mostly this was not too tricky, although I know I have done very simple tests thus far. The trickies part was that I got a false positive until I figured out how to use the 'done' functionality when testing code with callbacks. This also made me realise I had a bug in one of the previously written tests. Good learning :)
 
 ## Task 4

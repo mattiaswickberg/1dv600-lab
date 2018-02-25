@@ -1,4 +1,4 @@
-var expect    = require("chai").expect;
+/* var expect    = require("chai").expect;
 var GetBookResource = require("../app/resources/GetBookResource");
 
 describe("Get Book", function () {
@@ -13,4 +13,4 @@ describe("Get Book", function () {
              })
         });
     });
-});
+}); */

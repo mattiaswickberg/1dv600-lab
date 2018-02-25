@@ -6,6 +6,7 @@
 
     module.exports = function (id, callback) {
 
+        callback()
     };
 
 }());

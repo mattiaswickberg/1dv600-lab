@@ -1,3 +1,6 @@
+var xmlToJson = require('../resources/xmlToJson')
+var jsonToXml = require('../resources/jsonToXml')
+
 (function () {
     "use strict";
 
@@ -20,6 +23,7 @@
             fs.readFile(path.join(__dirname, 'books.xml'), function (err, data) {
                 // Parse XML file and convert into JSON objects, which are save into variable books
                 parser.parseString(data, function (err, result) {
+                    if (result) {
                     // console.log(result.catalog.book)
                     var books = []
                     result.catalog.book.forEach( function(element) {
@@ -36,6 +40,8 @@
                     })
                     // send array with book objects with callback function                 
                     callback(books);
+                    }
+
                 })
             })
         },
@@ -43,7 +49,6 @@
         // Write the entire file to the file system.
         writeXMLFile: function(data) {
             var catalog = {catalog: {book: []}}
-            var books = 
             data.forEach( function(element) {
                 var book = {
                     '$': { id: element.id},
@@ -58,7 +63,7 @@
             })
             var builder = new xml2js.Builder()
             var xml = builder.buildObject(catalog)
-            console.log(xml)
+            // console.log(xml)
 
             // Write xml to books.xml
             fs.writeFile (path.join(__dirname, 'books.xml'), xml)

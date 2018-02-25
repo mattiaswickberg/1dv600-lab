@@ -8,7 +8,7 @@
         var newBooks;
         LibraryDAO.readXMLFile(function (data) {
             newBooks = data.filter(book => book.id !== id)
-            console.log(newBooks)
+            // console.log(newBooks)
             LibraryDAO.writeXMLFile(newBooks)
         })        
         callback()
