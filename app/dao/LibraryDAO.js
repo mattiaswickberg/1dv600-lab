@@ -1,6 +1,8 @@
 (function () {
   'use strict'
 
+  let xmlToJson = require('../resources/xmlToJson')
+  let jsonToXml = require('../resources/jsonToXml')
   var fs = require('fs')
   var path = require('path')
 
@@ -21,16 +23,9 @@
         parser.parseString(data, function (err, result) {
                     // console.log(result.catalog.book)
           var books = []
+          // Convert each book to JSON and store in array
           result.catalog.book.forEach(function (element) {
-            var book = {
-              'id': element.$.id,
-              'author': element.author[0],
-              'title': element.title[0],
-              'genre': element.genre[0],
-              'price': element.price[0],
-              'publish_date': element.publish_date[0],
-              'description': element.description[0]
-            }
+            var book = xmlToJson(element)
             books.push(book)
           })
                     // send array with book objects with callback function
@@ -41,20 +36,15 @@
 
         // Write the entire file to the file system.
     writeXMLFile: function (data) {
+        // Create container for books
       var catalog = {catalog: {book: []}}
+      // Covert each book into XML-format and store in container
       var books =
             data.forEach(function (element) {
-              var book = {
-                '$': { id: element.id},
-                author: [element.author],
-                title: [element.title],
-                genre: [element.title],
-                price: [element.price],
-                publish_date: [element.publish_date],
-                description: [element.description]
-              }
+              var book = jsonToXml(element)  
               catalog.catalog.book.push(book)
             })
+            // Build XML from container object
       var builder = new xml2js.Builder()
       var xml = builder.buildObject(catalog)
             // console.log(xml)
