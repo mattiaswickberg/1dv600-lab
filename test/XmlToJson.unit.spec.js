@@ -4,7 +4,7 @@ var expect = require('chai').expect
 var XmlToJson = require('../app/resources/XmlToJson')
 
 describe('XmlToJson', function () {
-  describe('Tests the XmlToJson function to see if it returns an object corresponding ID', function () {
+  describe('Tests function to see if it returns an object corresponding ID', function () {
     it('Returns an object with an ID', function (done) {
         var data =   { '$': { id: '101' },
         author: [ 'Stephen Hawking' ],
@@ -16,6 +16,16 @@ describe('XmlToJson', function () {
         var book = XmlToJson(data) 
         expect(book.id).to.equal('101')
         done()
+    })
+  })
+})
+
+describe('XmlToJson', function () {
+  describe('Tests function to see that it can handle an empty input', function () {
+    it('Returns undefined', function (done) {
+      var book = XmlToJson()
+      expect(book).to.equal(undefined)
+      done()
     })
   })
 })
