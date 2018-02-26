@@ -21,7 +21,7 @@
       fs.readFile(path.join(__dirname, 'books.xml'), function (err, data) {
                 // Parse XML file and convert into JSON objects, which are save into variable books
         parser.parseString(data, function (err, result) {
-                     console.log(result.catalog.book)
+                    // console.log(result.catalog.book)
           var books = []
           // Convert each book to JSON and store in array
           result.catalog.book.forEach(function (element) {
