@@ -1,8 +1,8 @@
 (function () {
   'use strict'
 
-  let xmlToJson = require('../resources/xmlToJson')
-  let jsonToXml = require('../resources/jsonToXml')
+  let XmlToJson = require('../resources/XmlToJson')
+  let JsonToXml = require('../resources/JsonToXml')
   var fs = require('fs')
   var path = require('path')
 
@@ -21,11 +21,11 @@
       fs.readFile(path.join(__dirname, 'books.xml'), function (err, data) {
                 // Parse XML file and convert into JSON objects, which are save into variable books
         parser.parseString(data, function (err, result) {
-                    // console.log(result.catalog.book)
+                     console.log(result.catalog.book)
           var books = []
           // Convert each book to JSON and store in array
           result.catalog.book.forEach(function (element) {
-            var book = xmlToJson(element)
+            var book = XmlToJson(element)
             books.push(book)
           })
                     // send array with book objects with callback function
@@ -41,7 +41,7 @@
       // Covert each book into XML-format and store in container
       var books =
             data.forEach(function (element) {
-              var book = jsonToXml(element)  
+              var book = JsonToXml(element)  
               catalog.catalog.book.push(book)
             })
             // Build XML from container object
