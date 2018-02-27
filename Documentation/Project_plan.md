@@ -144,11 +144,3 @@ February 1st - 4th: Assignment 1.1-1.3
 
 Revise and update plan every Sunday. 
 
-
-
-
-- Planning: missing. Write the plan you used to solve the subtasks. 
-- Improvement strategies: ok 
-- Vision: ok. Focus more on app information that has been given to you. Mention app current status, stakeholder's goals (don't forget developers), briefly mention your tasks. 
-- Project plan: ok. Add purpose, scope, stakeholders including their goals, resources, project goals. Then add section for each iteration and mention iterations' goals, milestones, strategy, req. covering and deliverables. 
-- General: use tables in time log and project plan.
