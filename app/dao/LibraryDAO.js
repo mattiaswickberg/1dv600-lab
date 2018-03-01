@@ -24,15 +24,19 @@
         } else {
                 // Parse XML file and convert into JSON objects, which are save into variable books
           parser.parseString(data, function (err, result) {
-                    // console.log(result.catalog.book)
-            var books = []
+            if (err) {
+              console.log(err)
+            } else {
+          // console.log(result.catalog.book)
+              var books = []
           // Convert each book to JSON and store in array
-            result.catalog.book.forEach(function (element) {
-              var book = XmlToJson(element)
-              books.push(book)
-            })
+              result.catalog.book.forEach(function (element) {
+                var book = XmlToJson(element)
+                books.push(book)
+              })
                     // send array with book objects with callback function
-            callback(books)
+              callback(books)
+            }
           })
         }
       })
