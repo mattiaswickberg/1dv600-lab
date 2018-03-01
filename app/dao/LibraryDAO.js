@@ -23,17 +23,17 @@
           console.log(err)
         } else {
                 // Parse XML file and convert into JSON objects, which are save into variable books
-        parser.parseString(data, function (err, result) {
+          parser.parseString(data, function (err, result) {
                     // console.log(result.catalog.book)
-          var books = []
+            var books = []
           // Convert each book to JSON and store in array
-          result.catalog.book.forEach(function (element) {
-            var book = XmlToJson(element)
-            books.push(book)
-          })
+            result.catalog.book.forEach(function (element) {
+              var book = XmlToJson(element)
+              books.push(book)
+            })
                     // send array with book objects with callback function
-          callback(books)
-        })
+            callback(books)
+          })
         }
       })
     },
@@ -43,10 +43,10 @@
         // Create container for books
       var catalog = {catalog: {book: []}}
       // Covert each book into XML-format and store in container
-            data.forEach(function (element) {
-              var book = JsonToXml(element)
-              catalog.catalog.book.push(book)
-            })
+      data.forEach(function (element) {
+        var book = JsonToXml(element)
+        catalog.catalog.book.push(book)
+      })
             // Build XML from container object
       var builder = new xml2js.Builder()
       var xml = builder.buildObject(catalog)

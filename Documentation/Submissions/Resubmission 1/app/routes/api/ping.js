@@ -1,20 +1,18 @@
 (function () {
-    "use strict";
+  'use strict'
 
-    var express = require('express');
-    var router = express.Router();
+  var express = require('express')
+  var router = express.Router()
 
+  var PingResource = require('../../resources/PingResource')
 
-    var PingResource = require('../../resources/PingResource');
+  router.get('/', function (req, res) {
+    res.type('json')
 
-    router.get('/', function (req, res) {
-        res.type('json');
+    PingResource(function (data) {
+      res.send(data)
+    })
+  })
 
-        PingResource(function (data) {
-            res.send(data);
-        });
-    });
-
-
-    module.exports = router;
-}());
+  module.exports = router
+}())
