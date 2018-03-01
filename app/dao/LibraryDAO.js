@@ -19,6 +19,9 @@
       var parser = new xml2js.Parser()
             // Read file from system
       fs.readFile(path.join(__dirname, 'books.xml'), function (err, data) {
+        if (err) {
+          console.log(err)
+        } else {
                 // Parse XML file and convert into JSON objects, which are save into variable books
         parser.parseString(data, function (err, result) {
                     // console.log(result.catalog.book)
@@ -31,6 +34,7 @@
                     // send array with book objects with callback function
           callback(books)
         })
+        }
       })
     },
 
@@ -39,9 +43,8 @@
         // Create container for books
       var catalog = {catalog: {book: []}}
       // Covert each book into XML-format and store in container
-      var books =
             data.forEach(function (element) {
-              var book = JsonToXml(element)  
+              var book = JsonToXml(element)
               catalog.catalog.book.push(book)
             })
             // Build XML from container object

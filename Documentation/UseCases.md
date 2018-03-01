@@ -11,17 +11,13 @@ Use cases for the scope of this project:
 6. User wants to delete book
 7. User wants to change details of book
 
-Use cases that would be reasonable to expect for a proper library system
-8. User wants to find all books of a certain type
-9. User wants to put in request for a book (if not a personal library)
-
 ### Detailed use case 1: Search for book by genre
 
 User wants to find a new book to read, but has no particular book in mind. However, user does like Science Fiction.
 
-Precondition: User does not know what book to borrow
+Precondition: User is on library main page
 
-Postcondition: User has found a book to borrow
+Postcondition: List of Science Fiction novels is displayed on the page
 
 #### Main scenario
 1. The person types in "Science Fiction" into the search field
@@ -39,23 +35,25 @@ Postcondition: User has found a book to borrow
 
 ### Detailed use case 2: User wants to borrow a certain book
 
-User wants to borrow a book
+User wants to check out a specific title
 
-Precondition: User knows what book to borrow, and wants to request to borrow it
+Precondition: User is on main library page
 
-Postcondition: User has borrowed a book
+Postcondition: The corrrect book is displayed on page
 
 #### Main scenario
-1. The person looks up the specific book in system
-2. User requests to borrow book
-3. System checks availability of book
-4. System checks that user has no outstanding fines that blocks borrowing
-5. System returns book to user
+1. The person types in title of book into search field
+2. User clicks search
+3. System returns list of book(s) with correct title
+4. User clicks on borrow book
+5. System checks availability of book
+6. System checks that user has no outstanding fines that blocks borrowing
+7. System returns book to user
 
 #### Secondary scenarios
-##### 3.1 Book is not available
+##### 5.1 Book is not available
 1. System returns a message that book is not available
-##### 4.1 User has outstanding fines to pay
+##### 6.1 User has outstanding fines to pay
 1. System returns messages that user has to pay fines before borrowing the book.
 2. System gives user options to pay
 3. User pays fines and continues with transaction
