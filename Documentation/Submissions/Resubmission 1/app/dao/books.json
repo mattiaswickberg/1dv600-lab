@@ -1,0 +1,38 @@
+[
+    {
+        "id":"001",
+        "title": "Neverwhere",
+        "author": "Neil Gaiman",
+        "genre": "Urban Fantasy",
+        "price": "10",
+        "publishDate": "1997-09-12",
+        "decription": "A tale of a hidden London, where the forgotten sould of the city roam. Richard, an ordinary bloke, suddenly finds himself cast into a London he does not recognise"
+    }, 
+    {
+        "id":"002",
+        "title": "Left Hand of Darkness",
+        "author": "Ursula K LeGuin",
+        "genre": "Science Fiction",
+        "price": "10",
+        "publishDate": "1969",
+        "decription": "Genderfluid before it became a thing!"
+    },
+    {
+        "id":"003",
+        "title": "The Tale of Genji",
+        "author": "Murasaki Shikibu",
+        "genre": "Romance",
+        "price": "10",
+        "publishDate": "1021",
+        "decription": "The world's first novel? At least as we know the modern novel. A true classic."
+    },
+    {
+        "id":"",
+        "title": "The Mysteries of Udolpho",
+        "author": "Ann Radcliffe",
+        "genre": "Gothic",
+        "price": "10",
+        "publishDate": "1794-05-08",
+        "decription": "A chilling tale from one of the pioneers of Gothic literature"
+    }
+]
