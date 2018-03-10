@@ -94,6 +94,7 @@ Have a plan for the testing of the product, and the first few tests in place.
 #### Iteration goal
 Have a plan for the different iterations of the last stage of development, including the plan, design, testing and implementing of each interation. 
 
+
 * Task 2: Iteration #1
 
 #### Iteration goal
@@ -135,9 +136,10 @@ Having designed, tested and implemented the edit book function of the system, an
 |Task 3|2018-02-20|2018-02-26|
 |Task 4|2018-02-20|2018-02-28|
 |**Assignment 4: Project**|
-|Task 1|2018-03-01|2018-03-05|
-|Task 2|2018-03-05|2018-03-10|
-|Task 3|2018-03-10|2018-03-18|
+|Task 1|2018-03-10|2018-03-10|
+|Task 2|2018-03-11|2018-03-15|
+|Task 3|2018-03-15|2018-03-18|
+
 February 1st - 4th: Assignment 1.1-1.3
 
 ## Monitoring
