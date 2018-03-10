@@ -24,7 +24,7 @@ Iteration 3: 8 hours
 
 ## Iteration #1
 Tasks in I1:
-- Create use case diagram for project 30 minutes
+- Create use case diagram for project 30 minutes 
 - Create sequence diagram for Add book function: 45 minutes
 - Describe design: 30 minutes
 - Write a test plan for I1: 30 minutes
