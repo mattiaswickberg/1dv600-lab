@@ -20,10 +20,27 @@
 |||2018-02-10 10.00|2018-02-1011.20||
 |||2018-02-11 09.53|2018-02-11 11.15|229 minutes|
 |**Assignment 3**|
-|Task |60 minutes|2018-02-22 20.51|2018-02-22 22.01|70 minutes|
-|Task |60 minutes|2018-02-25 10.09|2018-02-25 10.37|28 minutes|
-|Task |150 minutes|2018-02-25 10.40|2018-02-25 12.14|94 minutes|
-|Task |120 minutes|2018-02-26 20.25|2018-02-26 21.45|80 minutes|
+|Task 1|60 minutes|2018-02-22 20.51|2018-02-22 22.01|70 minutes|
+|Task 2|60 minutes|2018-02-25 10.09|2018-02-25 10.37|28 minutes|
+|Task 3|150 minutes|2018-02-25 10.40|2018-02-25 12.14|94 minutes|
+|Task 4|120 minutes|2018-02-26 20.25|2018-02-26 21.45|80 minutes|
 |**Assignment 4**|
-|Task |||||
-
+|Task 1|90 minutes|2018-03-10 16.00|2018-03-10 17.40|100 minutes|
+|Task 2, diagrams |75 minutes|2018-03-10 19.15|2018-03-10 20.35|80 minutes|
+|Task 2, design |30 minutes|2018-03-10 20.35|2018-03-10 20.50|15 minutes|
+|Task 2, tests |120 minutes||||
+|Task 2, code|60 minutes||||
+|Task 2, test|15 minutes||||
+|Task 2, document|60 minutes||||
+|Task 3.1, diagrams |75 minutes||||
+|Task 3.1, design |30 minutes||||
+|Task 3.1, tests |120 minutes||||
+|Task 3.1, code|60 minutes||||
+|Task 3.1, test|15 minutes||||
+|Task 3.1, document|60 minutes||||
+|Task 3.2, diagrams |75 minutes||||
+|Task 3.2, design |30 minutes||||
+|Task 3.2, tests |120 minutes||||
+|Task 3.2, code|60 minutes||||
+|Task 3.2, test|15 minutes||||
+|Task 3.2, document|60 minutes||||

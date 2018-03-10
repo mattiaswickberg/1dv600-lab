@@ -35,6 +35,9 @@ Tasks in I1:
 - Document process: 30 minutes
 - Reflect: 30 minutes
 
+### Design comments
+The functionality to add a new book into the library systam database is a primary one of course. The API for this functionality specifies that the client will send a reqest with a json object to the server. This json object will on the server side be sent from books.js to the AddBookResource method, which in turn will fetch the current list of books, convert these into json format - functionality that is already in place from the GetBooksResource method - and add in the new book into this list. The book list will then be converted back into xml format - also in place from earlier stages of development, and write the expanded book list back to the file books.xml
+
 
 ## Iteration #2
 Tasks in I2:
