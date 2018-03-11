@@ -1,7 +1,6 @@
 # Use cases
 
-## List of use cases
-I'm aware that at least for the scope of this project, there will only be one type of user. 
+## List of use cases. 
 Use cases for the scope of this project:
 1. User wants to list all the books in the library
 2. User wants to add new book

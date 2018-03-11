@@ -28,19 +28,25 @@
 |Task 1|90 minutes|2018-03-10 16.00|2018-03-10 17.40|100 minutes|
 |Task 2, diagrams |75 minutes|2018-03-10 19.15|2018-03-10 20.35|80 minutes|
 |Task 2, design |30 minutes|2018-03-10 20.35|2018-03-10 20.50|15 minutes|
-|Task 2, tests |120 minutes||||
+|Task 2, test plan |30 minutes|2018-03-11 17.50|2018-03-11 18.10|20 minutes|
+|Task 2, manual tests |30 minutes|2018-03-11 18.10|2018-03-11 18.30|20 minutes|
+|Task 2, unit tests|60 minutes||||
 |Task 2, code|60 minutes||||
 |Task 2, test|15 minutes||||
 |Task 2, document|60 minutes||||
 |Task 3.1, diagrams |75 minutes||||
 |Task 3.1, design |30 minutes||||
-|Task 3.1, tests |120 minutes||||
+|Task 3.1, test plan |30 minutes||||
+|Task 3.1, manual tests |30 minutes||||
+|Task 3.1, unit tests |60 minutes||||
 |Task 3.1, code|60 minutes||||
 |Task 3.1, test|15 minutes||||
 |Task 3.1, document|60 minutes||||
 |Task 3.2, diagrams |75 minutes||||
 |Task 3.2, design |30 minutes||||
-|Task 3.2, tests |120 minutes||||
+|Task 3.2, test plan |30 minutes||||
+|Task 3.1, manual tests |30 minutes||||
+|Task 3.1, unit tests |60 minutes||||
 |Task 3.2, code|60 minutes||||
 |Task 3.2, test|15 minutes||||
 |Task 3.2, document|60 minutes||||
