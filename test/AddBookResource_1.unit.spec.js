@@ -9,7 +9,6 @@ describe('Add Book', function () {
     it('Returns only objects with an ID', function (done) {
       var callback = function (data) {
           // Check if book with correct id is in book list
-       
 
         expect(obj).to.equal(true)
         done()
