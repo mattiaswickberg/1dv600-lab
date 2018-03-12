@@ -1,7 +1,7 @@
 
 # Time Log
 
-A comment about the time logs here: Since I work 115% and study full time, the time is not easily measured. I manage to work and study in paralell mainly by utilising little times in between, and spending a lot of time thinking about things while doing other work that doesn't require much of my cognition. Thus, the times below says very little about the time actually spent, but it is the only time I can measure. Some of the times will be longer than actual work as well, being done at work while interrupted by colleagues and pupils that need help. 
+A comment about the time logs here: Since I work 115% and study full time, the time is not easily measured. I manage to work and study in paralell mainly by utilising little times in between, and spending a lot of time thinking about things while doing other work that doesn't require much of my cognition. Thus, the times below says very little about the time actually spent, but it is the only time I can measure. Some of the times will be longer than actual work as well, being done at work while interrupted by colleagues and pupils that need help - or because I had some trouble with Vagrant starting March 10th that took some time more than once.
 
 |Assignment/Task|Expected time| Start|Finish|Actual time|
 |----|----|----|----|-----|
@@ -35,14 +35,15 @@ A comment about the time logs here: Since I work 115% and study full time, the t
 |Task 2, unit tests|60 minutes|2018-03-11 20.15|2018-03-11 21.00|45 minutes|
 |Task 2, code|60 minutes|2018-03-11 21.00|2018-03-11 21.20|20 minutes|
 |Task 2, test|15 minutes|2018-03-11 21.20|2018-03-11 21.30|10 minutes|
-|Task 2, document|60 minutes|2018-03-11 21.30|2018-01-11 21.55| 25 minutes|
+|Task 2, document|60 minutes|2018-03-11 21.30|2018-03-11 21.55| 25 minutes|
 |Task 3.1, diagrams |30 minutes|2018-03-11 19.45|2018-03-11 20.14|29 minutes|
-|Task 3.1, design |30 minutes|2018-01-11 22.00|2018-01-11 22.15|15 minutes|
-|Task 3.1, test plan |30 minutes|2018-01-11 22.15|2018-01-11 22.45|30 minutes|
-|Task 3.1, manual tests |30 minutes|2018-01-11 22.45|2018-01-11 23.10|25 minutes|
-|Task 3.1, unit tests |60 minutes|2018-01-12 8.20|2018-01-12 10.05|105 minutes|
-|Task 3.1, code|60 minutes||||
-|Task 3.1, test|15 minutes||||
+|Task 3.1, design |30 minutes|2018-03-11 22.00|2018-03-11 22.15|15 minutes|
+|Task 3.1, test plan |30 minutes|2018-03-11 22.15|2018-03-11 22.45|30 minutes|
+|Task 3.1, manual tests |30 minutes|2018-03-11 22.45|2018-03-11 23.10|25 minutes|
+|Task 3.1, unit tests |60 minutes|2018-03-12 8.20|2018-03-12 10.05|105 minutes|
+|Task 3.1, code|60 minutes|2018-03-12 18.45|2018-03-12 19.48|63 minutes|
+|Task 3.1, test|15 minutes|2018-13-12 19.50|2018-03-12 20.00|10 minutes|
+|Task 3.1, fix found bugs||2018-13-12 20.00|2018-13-12 20.30|30 minutes|
 |Task 3.1, document|60 minutes||||
 |Task 3.2, diagrams |75 minutes||||
 |Task 3.2, design |30 minutes||||

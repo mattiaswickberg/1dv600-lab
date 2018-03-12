@@ -19,13 +19,22 @@
         if (bookid.length > 0) {
           callback('Error - ID taken')
         } else {
+          data.id = newID(books).toString()
           books.push(data)    // Add new book to book list
           LibraryDAO.writeXMLFile(books)     // Write book list to file via LibraryDAO.writeXMLFile
           callback('Book added to database')
         }
       })
-
-
     }    
   }
 }())
+
+var newID = function (books) {
+  var id = 0
+  books.forEach(element => {
+    if (parseInt(element.id) > id) {
+      id = parseInt(element.id)
+    }
+  })
+  return id + 1
+}

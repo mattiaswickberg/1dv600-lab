@@ -27,7 +27,7 @@
             if (err) {
               console.log(err)
             } else {
-          // console.log(result.catalog.book)
+           // console.log(result)
               var books = []
           // Convert each book to JSON and store in array
               result.catalog.book.forEach(function (element) {
