@@ -1,19 +1,27 @@
 var expect = require('chai').expect
-var GetBooksResource = require('../app/resources/AddBookResource')
+var AddBookResource = require('../app/resources/AddBookResource')
 
 describe('Add Book', function () {
-  describe('Tests the add book function to see a book with correct ID exists', function () {
-    var book = {}
+  describe('Tests the add book function to see if function validated incoming object', function () {
     // build json book to send to AddBookResource
+    var book = {
+      'id': '61',
+      'title': '',
+      'author': '',
+      'genre': 'Gothic',
+      'price': '10',
+      'publishDate': '1794-05-08',
+      'description': 'Ann Radcliffe is one of our least known and most important authors, who with this set of novels in particular was instrumental in creating the gotic literary genre as we know it.'
+    }
 
-    it('Returns only objects with an ID', function (done) {
+    it('Returns a message indicating that the book not added due to missing fields', function (done) {
       var callback = function (data) {
-          // Check if book with correct id is in book list
+          // Check if function returns expected error message
 
-        expect(obj).to.equal(true)
+        expect(data).to.equal('Book not added due to mandatory information missing')
         done()
       }
-      GetBooksResource(book, callback)
+      AddBookResource(book, callback)
     })
   })
 })

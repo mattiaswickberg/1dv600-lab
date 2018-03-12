@@ -7,11 +7,11 @@
     console.log('Add books gets: ')
     console.log(data)
 
+    // Make sure data is valid book
+
+    // Make sure id is available
+
     // fetch book list via LibraryDAO.readXMLFile
-
-    // Convert book list to JSON
-
-    // Convert data to JSON
 
     // Add new book to JSON book list
 
