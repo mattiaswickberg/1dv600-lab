@@ -18,7 +18,7 @@ describe('Add Book', function () {
       var callback = function (data) {
           // Check if function returns expected error message
 
-        expect(data).to.equal('Book not added due to mandatory information missing')
+        expect(data).to.equal('Book not added due to title missing')
         done()
       }
       AddBookResource(book, callback)

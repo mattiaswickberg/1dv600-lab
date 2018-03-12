@@ -1,6 +1,8 @@
 
 # Time Log
 
+A comment about the time logs here: Since I work 115% and study full time, the time is not easily measured. I manage to work and study in paralell mainly by utilising little times in between, and spending a lot of time thinking about things while doing other work that doesn't require much of my cognition. Thus, the times below says very little about the time actually spent, but it is the only time I can measure. Some of the times will be longer than actual work as well, being done at work while interrupted by colleagues and pupils that need help. 
+
 |Assignment/Task|Expected time| Start|Finish|Actual time|
 |----|----|----|----|-----|
 |**Assignment 1**|
@@ -38,7 +40,7 @@
 |Task 3.1, design |30 minutes|2018-01-11 22.00|2018-01-11 22.15|15 minutes|
 |Task 3.1, test plan |30 minutes|2018-01-11 22.15|2018-01-11 22.45|30 minutes|
 |Task 3.1, manual tests |30 minutes|2018-01-11 22.45|2018-01-11 23.10|25 minutes|
-|Task 3.1, unit tests |60 minutes||||
+|Task 3.1, unit tests |60 minutes|2018-01-12 8.20|2018-01-12 10.05|105 minutes|
 |Task 3.1, code|60 minutes||||
 |Task 3.1, test|15 minutes||||
 |Task 3.1, document|60 minutes||||
