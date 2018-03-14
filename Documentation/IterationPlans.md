@@ -97,4 +97,22 @@ Tasks in I3:
 - Document process: 30 minutes
 - Reflect: 30 minutes
 
+### Design comments
+The design of edit book should be fairly straight forward, since I have the functions for GetBook and add book finished. Edit book gets info from client, and needs to validate that information to make sure that there is still a title in there, and that everything is a string - this functionality is already in AddBook, so no need to duplicate that code. However, I don't want to add a book since there is already one, so what I want to do is get the existing book list, find the instance of the book that is in there, and update the fields in that book to match the changes that the user saved. 
 
+For the search books by title or author, this of course will require a bit more work. I'm thinking, that other than changing books.js to allow this functionality, the search terms is forwarded from books.js to GetBooksResource, where I before the current code returns the book list will have to do a check if that information was sent, and if it was call a function FilterBookList that will go through the current book list and make a new list including books that match the serach terms either in teh author field or in the title field, and send that list to the client. If the list is empty, then that should be sent to, to indicate that no books matching that title/author was found.
+
+### Test plan
+For the Edit book function I want two manual test cases, one that check if a book that is edited also shows the changes that I make, and one where I completely remove the title, which the system shouldn't let me. 
+
+For the search by author, I need one test case to check if a search by title works, one for an author with more than one entry, to check that the system lists all the books expected, and one with a search term that doesn't match any books, where I expect an empty page as a result.
+
+### Unit tests 
+For the edit books function, I want a unit test that checks that the id sent in is the same as one after editing, and I want one that checks if the function can handle empty or fields with the wrong data type. 
+
+For the search books by title/author function I'm going to want ???
+
+### Process
+
+
+### Reflection
