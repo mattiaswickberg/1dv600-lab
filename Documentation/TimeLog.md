@@ -50,6 +50,6 @@ A comment about the time logs here: Since I work 115% and study full time, the t
 |Task 3.2, test plan |30 minutes|2018-03-14 17.00|2018-03-14 17.20| 20 minutes|
 |Task 3.1, manual tests |30 minutes|2018-03-14 20.00|2018-03-14 20.20|20 minutes|
 |Task 3.1, unit tests |60 minutes|2018-03-14 20.20|2018-03-14 20.45|25 minutes|
-|Task 3.2, code|60 minutes||||
+|Task 3.2, code|60 minutes|2018-03-14 20.50|2018-03-14 22.00|70 minutes|
 |Task 3.2, test|15 minutes||||
 |Task 3.2, document|60 minutes||||
