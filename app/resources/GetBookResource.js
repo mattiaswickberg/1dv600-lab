@@ -6,7 +6,7 @@
   module.exports = function (id, callback) {
     // console.log('Get book gets: ' + id)
     LibraryDAO.readXMLFile(function (data) {
-      var book;
+      var book
       data.forEach(element => {
         if (element.id === id.toString()) {
           book = element

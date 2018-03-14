@@ -6,7 +6,7 @@ describe('Add Book', function () {
     // build json book to send to AddBookResource
     var book = {
       'id': '61',
-      'title': '',
+      'title': null,
       'author': '',
       'genre': 'Gothic',
       'price': '10',

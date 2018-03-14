@@ -9,7 +9,7 @@ var xmlToJson = function (element) {
       'publish_date': element.publish_date[0],
       'description': element.description[0]
     }
-    //console.log(book)
+    // console.log(book)
     return book
   }
 }
