@@ -4,12 +4,11 @@
   var LibraryDAO = require('../dao/LibraryDAO')
 
   module.exports = function (data, callback) {
-    console.log('Add books gets: ')
-    console.log(data)
-    var message = ''
+    /* console.log('Add books gets: ')
+    console.log(data) */
 
     // Make sure data is valid book
-    if (data.title.length === 0) {
+    if (typeof data.title !== 'string') {
       callback('Book not added due to title missing')
     } else {
       // fetch book list via LibraryDAO.readXMLFile

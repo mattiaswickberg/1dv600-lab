@@ -81,17 +81,11 @@
     <description>Hawking attempts to explain a range of subjects in cosmology, including the big bang, black holes and light cones, to the nonspecialist reader. His main goal is to give an overview of the subject, but he also attempts to explain some complex mathematics. In the 1996 edition of the book and subsequent editions, Hawking discusses the possibility of time travel and wormholes and explores the possibility of having a universe without a quantum singularity at the beginning of time.</description>
   </book>
   <book id="11">
-    <author> Neil Gaiman</author>
+    <author>Neil Gaiman</author>
     <title> The Graveyard Book</title>
-    <genre>
-      <0> </0>
-    </genre>
-    <price>
-      <0> </0>
-    </price>
-    <publish_date>unknown</publish_date>
-    <description>
-      <0> </0>
-    </description>
+    <genre>Children's gothic fantasy</genre>
+    <price> 10</price>
+    <publish_date>2005</publish_date>
+    <description> The Jungle book reimagined in a graveyard setting</description>
   </book>
 </catalog>

@@ -43,8 +43,8 @@ A comment about the time logs here: Since I work 115% and study full time, the t
 |Task 3.1, unit tests |60 minutes|2018-03-12 8.20|2018-03-12 10.05|105 minutes|
 |Task 3.1, code|60 minutes|2018-03-12 18.45|2018-03-12 19.48|63 minutes|
 |Task 3.1, test|15 minutes|2018-13-12 19.50|2018-03-12 20.00|10 minutes|
-|Task 3.1, fix found bugs||2018-13-12 20.00|2018-13-12 20.30|30 minutes|
-|Task 3.1, document|60 minutes||||
+|Task 3.1, fix found bugs||2018-13-12 20.00|2018-13-12 20.50|50 minutes|
+|Task 3.1, document|60 minutes|2018-03-14 15.10|2018-03-14 16.00|50 minutes|
 |Task 3.2, diagrams |75 minutes||||
 |Task 3.2, design |30 minutes||||
 |Task 3.2, test plan |30 minutes||||

@@ -1,4 +1,3 @@
-
 var jsonToXml = function (element) {
   var book
   if (element !== undefined) {
@@ -16,10 +15,10 @@ var jsonToXml = function (element) {
 }
 
 var checkMissing = function (element) {
-  if (element === undefined) {
-    return (' ')
-  } else {
+  if (typeof element === 'string') {
     return element
+  } else {
+    return (' ')
   }
 }
 

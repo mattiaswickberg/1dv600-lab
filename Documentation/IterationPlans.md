@@ -76,6 +76,13 @@ In this iteration I want to make two manual test cases: One adding a new book wi
 ### Unit tests
 Two unit tests should be implemented, one to check that AddBookResource checks that book data is valid, and one to check that if id is already taken, AddBooksResorce responds with a message indicating that. 
 
+### Process
+For this iteration I started by doing the sequence diagram, and then spent some time deciding on the manual tests and unit tests. Then I wrote a code for add book, which at first run didn't pass the unit tests, which meant some time figuring out what I had missed. Turns out I didn't have my types right in my id. I did some work and ran again, and this time passed the unit tests. Moving on to the manual tests, these, however, did not pass. The first one - to check if a book was added with the fields filled in, caused the system to crash when I reloaded the page. Some bug tracking later I realised that the implementation I had made couldn't gracefully handle empty fields converted to xml, so I added a check for empty fields to add a string with just a space to those. 
+
+Once done, only the second manual test failed, which was that a book without title was still added, which makes no sense for a library system. Ideally, this would of course be checked client side rather than server side, but the situation being what it is, I had added a check for title that gave a false positive. I changed this check to look for a string, and the test passed. 
+
+### Reflections
+This iteration the tests really did their work! I haven't had much use for the diagrams yet in this course, but the tests are definitely helpful, and I must say that I think that at least to some degree, I'm going to move towards TDD and BDD. When it comes to diagrams, I'll look into it further at some point, but for this particular project, they haven't been very useful. They don't really seem meant for a small solitary project. 
 
 ## Iteration #3
 Tasks in I3:
