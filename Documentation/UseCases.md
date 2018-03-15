@@ -4,32 +4,102 @@
 Use cases for the scope of this project:
 1. User wants to list all the books in the library
 2. User wants to add new book
-3. User wants to find a specific book and see details
-4. User wants to find book(s) with a certain title
-5. User wants to find all books of a certain author
-6. User wants to delete book
-7. User wants to change details of book
+3. User wants to find book(s) with a certain title
+4. User wants to find all books of a certain author
+5. User wants to delete book
+6. User wants to change details of book
 
-### Detailed use case 1: Search for book by genre
+## Use Case 1
+User wants to list all the books in the library
 
-User wants to find a new book to read, but has no particular book in mind. However, user does like Science Fiction.
+### Precondition
 
-Precondition: User is on library main page
+### Postcondition
 
-Postcondition: List of Science Fiction novels is displayed on the page
 
-#### Main scenario
-1. The person types in "Science Fiction" into the search field
-2. A list of Science Fiction novels appears
+### Main Scenario
+
+
+### Secondary Scenarios
+
+## Use Case 2
+User wants to add new book
+
+### Precondition
+
+### Postcondition
+
+
+### Main Scenario
+
+
+### Secondary Scenarios
+
+## Use Case 3
+User wants to find book(s) with a certain title
+
+### Precondition
+
+### Postcondition
+
+
+### Main Scenario
+
+
+### Secondary Scenarios
+
+## Use Case 4
+User wants to find book(s) by a certain author
+
+### Precondition
+User is on library main page
+
+### Postcondition
+List of Neil Gaiman novels is displayed on the page
+
+### Main Scenario
+1. The person types in "Neil Gaiman" into the search field
+2. A list of Neil Gaiman novels appears
 3. User clicks on titles and reads about them
 4. User finds a book to read
 
-#### Secondary scenarios
+### Secondary Scenarios
 ##### 1.1 User spells search words wrong
-1. System returns empty list, explaining that no books are in the library that matches that search term, and suggests user checks spelling or search for something different
+1. System returns empty list.
 2. User corrects spelling and searches again
-##### 1.2 System contains no books of chosen genre
-1. System returns empty list, explaining that no books are in the library that matches that search term, and suggests user checks spelling or search for something different
+##### 1.2 System contains no books by chosen author
+1. System returns empty list.
+
+## Use Case 5
+User wants to delete book
+
+### Precondition
+
+### Postcondition
+
+
+### Main Scenario
+
+
+### Secondary Scenarios
+
+
+## Use Case 6
+User wants to change details of book
+### Precondition
+
+### Postcondition
+
+
+### Main Scenario
+
+
+### Secondary Scenarios
+
+
+
+
+
 
 
 ### Detailed use case 2: User wants to borrow a certain book

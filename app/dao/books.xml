@@ -82,18 +82,18 @@
   </book>
   <book id="11">
     <author>Neil Gaiman</author>
-    <title> The Graveyard Book</title>
+    <title>The Graveyard Book</title>
     <genre>Children's Gothic Fantasy</genre>
     <price> 104</price>
     <publish_date>2008-09-30</publish_date>
-    <description> The Jungle Book reimagined in a graveyard setting</description>
+    <description>The Jungle Book reimagined in a graveyard setting</description>
   </book>
   <book id="12">
     <author>Ann Radcliffe</author>
-    <title> The Mysteries of Udolpho</title>
+    <title>The Mysteries of Udolpho</title>
     <genre>Gothic</genre>
     <price>1234</price>
     <publish_date>1794-05-08</publish_date>
-    <description> Ann Radcliffe is one of our least known and most important authors, who with this set of novels in particular was instrumental in creating the gotic literary genre as we know it.</description>
+    <description>Ann Radcliffe is one of our least known and most important authors, who with this set of novels in particular was instrumental in creating the gotic literary genre as we know it.</description>
   </book>
 </catalog>

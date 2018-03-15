@@ -12,10 +12,11 @@
 
   router.get('/', function (req, res) {
     res.type('json')
+    var title = req.query.title
 
     GetBooksResource(function (data) {
       res.send(data)
-    })
+    }, title)
   })
 
   router.put('/', function (req, res) {
