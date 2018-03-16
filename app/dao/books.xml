@@ -96,4 +96,12 @@
     <publish_date>1794-05-08</publish_date>
     <description>Ann Radcliffe is one of our least known and most important authors, who with this set of novels in particular was instrumental in creating the gotic literary genre as we know it.</description>
   </book>
+  <book id="13">
+    <author>Neil Gaiman</author>
+    <title> Neverwhere</title>
+    <genre> Gothic</genre>
+    <price> 10</price>
+    <publish_date>1996-09-12</publish_date>
+    <description> A thrilling tale about the hidden sides on London.</description>
+  </book>
 </catalog>
