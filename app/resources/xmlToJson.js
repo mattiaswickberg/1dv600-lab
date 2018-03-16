@@ -6,7 +6,7 @@ var xmlToJson = function (element) {
       'title': element.title[0],
       'genre': element.genre[0],
       'price': element.price[0],
-      'publish_date': element.publish_date[0],
+      'publishDate': element.publish_date[0],
       'description': element.description[0]
     }
     // console.log(book)
