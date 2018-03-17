@@ -85,7 +85,7 @@
     <title>The Graveyard Book</title>
     <genre>Children's Gothic Fantasy</genre>
     <price>105</price>
-    <publish_date>2008-09-30</publish_date>
+    <publish_date> </publish_date>
     <description> The Jungle Book reimagined in a graveyard setting</description>
   </book>
   <book id="12">

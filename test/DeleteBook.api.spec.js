@@ -3,15 +3,14 @@ var assert = require('assert')
 
 var app = require('../app')
 
-describe('GetBook API', function () {
+describe('DeleteBook API', function () {
   describe('GET /api/books', function () {
-    it('respond with json with correct id', function (done) {
+    it('respond with empty object', function (done) {
       request(app)
-                .get('/api/books/5')
+                .delete('/api/books/55')
                 .set('Accept', 'application/json')
                 .expect('Content-type', /json/)
-                .expect(function (res) { assert.equal(res.body.id, '5') })
-                .expect(200, done)
+                .expect(200, {}, done)
     })
   })
 })

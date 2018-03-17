@@ -1,13 +1,15 @@
-var expect = require('chai').expect
-var GetBooksResource = require('../app/resources/GetBooksResource')
+var request = require('supertest')
 
-describe('Get Books', function () {
-  describe('Tests the get books function to see if it returns an array', function () {
-    it('Returns an array', function (done) {
-      GetBooksResource(function (data) {
-        expect(data instanceof Array).to.equal(true)
-        done()
-      })
+var app = require('../app')
+
+describe('GetBooks API', function () {
+  describe('GET /api/books', function () {
+    it('respond with json', function (done) {
+      request(app)
+                .get('/api/books')
+                .set('Accept', 'application/json')
+                .expect('Content-type', /json/)
+                .expect(200, done)
     })
   })
 })
