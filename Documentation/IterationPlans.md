@@ -128,7 +128,9 @@ I started by implementing EditBookResource, as that was the primary requirement.
 
 Once the primary functionality was all implemented, I wanted to reflect on what I was missing toi get a passing grade, and realized I probably need to make activity diagrams, and add API tests. I have been slightly impaired this iteration by illness, augmented by a bout of panic attacks, but the show must go on, so I have been trying to fill in the gaps. 
 
-After this, I went on to implement the added functionality of searching by title or author to the GetBooksResource function, because it bugged me not to have it in there, and now only organising things for submission to the course management is left to do. 
+After this, I went on to implement the added functionality of searching by title or author to the GetBooksResource function, because it bugged me not to have it in there. 
+
+Finally, I added some more api tests.
 
 ### Reflection
 On a personal level, since I never intend to make this my profession I don't much see the need to master UML (I'm doing this to get my teacher's license in interface design), and for these smaller projects I see limited use of so much time spent on making diagrams, while not even mentioning usability. It seems like bad development practice to me to devote so much energy to the former while completely ignoring the latter. However, this is a university course, and I fully understand that the scope of this course is limited to the inner workings of development, and that for at least projects with some complexity, or systems that are critical, these diagrams are vital. 

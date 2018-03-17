@@ -59,4 +59,4 @@ A comment about the time logs here: Since I work 115% and study full time, the t
 |Diagrams, use cases, manual tests etc.||2018-03-16 10.00|2018-03-16 11.00|60 minutes|
 |Diagrams, use cases, manual tests etc.||2018-03-16 15.00|2018-03-16 16.30|90 minutes|
 |Diagrams, use cases, manual tests etc.||2018-03-16 18.30|2018-03-16 19.30|60 minutes|
-||||||
+|Api tests|120 minutes|2018-03-17 15.10|2018-03-17 17.05|115 minutes|
