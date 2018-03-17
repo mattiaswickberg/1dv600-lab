@@ -18,9 +18,9 @@ Iteration 3 milestone: Edit book function fully implemented and tested
 Stretch Goal: Search for specific book fully implemented and tested, allowing search by both author and title.
 
 ### Iteration time plan
-Iteration 1: 6 hours
-Iteration 2: 6 hours
-Iteration 3: 8 hours
+Iteration 1: 8 hours
+Iteration 2: 8 hours
+Iteration 3: 10 hours
 
 ## Iteration #1
 Tasks in I1:
@@ -34,6 +34,9 @@ Tasks in I1:
 - Test functionality: 15 minutes
 - Document process: 30 minutes
 - Reflect: 30 minutes
+
+### Requirements
+Function GetBookResourcse should return a book object when called with an id that corresponds to a book id in the database. If id does not correspond to an id in the database, function should return an empty object.
 
 ### Design comments
 The choice of designing the GetBookResource was not my original plan - after all, the function seems not to be used at all by the client, and as such seemed unneccessary. However, it dawned on me that while the function is not at this point useful for the API, I still need a function that does this job to be able to test the other functions properly, and so the most logical place to start would be this one, even though it makes a poorer example for some of the documentation needed for this course. 
@@ -67,6 +70,9 @@ Tasks in I2:
 - Document process: 30 minutes
 - Reflect: 30 minutes
 
+### Requirements
+Function add book should take a JSON-object as input and given that object has a title that is a string of at least a length of 1, give that book a unique id and save it to the database. If title is missing, Add book should ignore the input and not save anything. 
+
 ## Design comments
 The functionality to add a new book into the library systam database is a primary one of course. The API for this functionality specifies that the client will send a reqest with a json object to the server. This json object will on the server side be sent from books.js to the AddBookResource method, which in turn will fetch the current list of books, convert these into json format - functionality that is already in place from the GetBooksResource method - and add in the new book into this list. The book list will then be converted back into xml format - also in place from earlier stages of development, and write the expanded book list back to the file books.xml
 
@@ -97,6 +103,11 @@ Tasks in I3:
 - Document process: 30 minutes
 - Reflect: 30 minutes
 
+### Requirements
+Edit book should take a JSON-object as input and look for a book entry with the corresponding id, and if input has a title of a string of at least length one, change the details of the book in the database to the details of the incoming object and save the new book to file. If no title, function should not update.
+
+GetBooksResource should take a search term as input and filter the boks in the database by that search term as author or title, and return the filtered list even if that list is empty. 
+
 ### Design comments
 The design of edit book should be fairly straight forward, since I have the functions for GetBook and add book finished. Edit book gets info from client, and needs to validate that information to make sure that there is still a title in there, and that everything is a string - this functionality is already in AddBook, so no need to duplicate that code. However, I don't want to add a book since there is already one, so what I want to do is get the existing book list, find the instance of the book that is in there, and update the fields in that book to match the changes that the user saved. 
 
@@ -113,6 +124,11 @@ For the edit books function, I want a unit test that checks that the id sent in 
 For the search books by title/author function I'm going to want ???
 
 ### Process
+I started by implementing EditBookResource, as that was the primary requirement. As with previous iterations, I made a sequence diagram and unit tests first, and then wrote the function. Not much trouble this time, other than discovering a typo in a previous function that had some impact even though it did not break functionality (published date was not displayed). 
 
+Once the primary functionality was all implemented, I wanted to reflect on what I was missing toi get a passing grade, and realized I probably need to make activity diagrams, and add API tests. I have been slightly impaired this iteration by illness, augmented by a bout of panic attacks, but the show must go on, so I have been trying to fill in the gaps. 
+
+After this, I went on to implement the added functionality of searching by title or author to the GetBooksResource function, because it bugged me not to have it in there, and now only organising things for submission to the course management is left to do. 
 
 ### Reflection
+On a personal level, since I never intend to make this my profession I don't much see the need to master UML (I'm doing this to get my teacher's license in interface design), and for these smaller projects I see limited use of so much time spent on making diagrams, while not even mentioning usability. It seems like bad development practice to me to devote so much energy to the former while completely ignoring the latter. However, this is a university course, and I fully understand that the scope of this course is limited to the inner workings of development, and that for at least projects with some complexity, or systems that are critical, these diagrams are vital. 

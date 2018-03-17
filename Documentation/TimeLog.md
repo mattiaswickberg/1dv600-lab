@@ -52,10 +52,11 @@ A comment about the time logs here: Since I work 115% and study full time, the t
 |Task 3.2, unit tests |60 minutes|2018-03-14 20.20|2018-03-14 20.45|25 minutes|
 |Task 3.2, code|60 minutes|2018-03-14 20.50|2018-03-14 22.00|70 minutes|
 |Task 3.2, test|15 minutes|2018-03-14 22.00|2018-03-14 22.10|10 minutes|
-|Task 3.2, document|60 minutes||||
+|Task 3.2, document|60 minutes|2018-03-17 11.00|2018-03-17 12.15|75 minutes|
 |**Time log falls apart a bit here, due to illness and anxiety attacks (I live with PTSD) - I honestly have no idea what time I spent on what anymore**|
 |Diagrams, use cases, manual tests etc.||2018-03-15 16.00|2018-03-15 17.30|90 minutes|
 |Diagrams, use cases, manual tests etc.||2018-03-15 20.00|2018-03-15 21.30|90 minutes|
 |Diagrams, use cases, manual tests etc.||2018-03-16 10.00|2018-03-16 11.00|60 minutes|
 |Diagrams, use cases, manual tests etc.||2018-03-16 15.00|2018-03-16 16.30|90 minutes|
-|Diagrams, use cases, manual tests etc.||2018-03-16 18.30|2018-03-16 20.00|90 minutes|
+|Diagrams, use cases, manual tests etc.||2018-03-16 18.30|2018-03-16 19.30|60 minutes|
+||||||
