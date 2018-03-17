@@ -9,15 +9,15 @@
         // Fetch book list
     LibraryDAO.readXMLFile(function (books) {
       // Make array for books matching search term
-      if(title !== undefined) {
+      if (title !== undefined) {
         var matchingBooks = []
-      books.forEach(element => {
-        if (element.title === title || element.author === title) {
-          matchingBooks.push(element)
-        }
-      })
-      callback(matchingBooks)
-      } else {callback(books)} // send books with callback function
+        books.forEach(element => {
+          if (element.title === title || element.author === title) {
+            matchingBooks.push(element)
+          }
+        })
+        callback(matchingBooks)
+      } else { callback(books) } // send books with callback function
     })
   }
 }())
