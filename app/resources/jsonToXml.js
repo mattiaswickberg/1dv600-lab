@@ -1,7 +1,7 @@
 var jsonToXml = function (element) {
   var book
   if (element !== undefined) {
-    book = {
+    book = { // Build xml object from json
       '$': {id: element.id},
       author: [checkMissing(element.author)],
       title: [checkMissing(element.title)],
@@ -14,7 +14,7 @@ var jsonToXml = function (element) {
   }
 }
 
-var checkMissing = function (element) {
+var checkMissing = function (element) { // Check if a field is empty, and return a string to avoid undefined errors
   if (typeof element === 'string') {
     return element
   } else {

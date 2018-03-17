@@ -65,11 +65,16 @@ The trickiest part of this was that I got a false positive until I figured out h
 # Assignment 4
 
 ## Task 1
+My main profession is working with people rather than code, but it seems to me to be at least to some degree a similar principle - the plan you make never holds longer than when you start working by that plan. Of course, in the world of software development the plans you make will probably hold better and better the more experience you have, and the better you know the capabilities of your team. However, your plans will probably be continously revised as you discover that you need something that you missed in the planning stage, or that you probably should switch the order of some parts of development. 
+
+So at this stage - do I feel that the implementation was easier because of all this planning, designing, writing unit tests and diagrams? Slightly yes. Is it worth the time invested? Not by any means! The time invested in these iterations seem to me to be a bit much for the simple system being built, and I guess that's why I have some trouble taking some parts of the assignments seriously. I get that it has to be this way, though, and I am very much trying to be serious about my work. 
 
 
 ## Task 2
-
+This iteration the tests really did their work! I haven't had much use for the diagrams yet in this course, but the tests are definitely helpful, and I must say that I think that at least to some degree, I'm going to move towards TDD and BDD. When it comes to diagrams, I'll look into it further at some point, but for this particular project, they haven't been very useful. They don't really seem meant for a small solitary project. 
 
 ## Task 3
+Edit book should take a JSON-object as input and look for a book entry with the corresponding id, and if input has a title of a string of at least length one, change the details of the book in the database to the details of the incoming object and save the new book to file. If no title, function should not update.
 
+GetBooksResource should take a search term as input and filter the boks in the database by that search term as author or title, and return the filtered list even if that list is empty. 
 

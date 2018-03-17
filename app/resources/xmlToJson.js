@@ -1,6 +1,6 @@
 var xmlToJson = function (element) {
   if (element !== undefined) {
-    var book = {
+    var book = { //build json object from xml
       'id': element.$.id,
       'author': element.author[0],
       'title': element.title[0],

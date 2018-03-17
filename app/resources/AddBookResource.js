@@ -4,9 +4,6 @@
   var LibraryDAO = require('../dao/LibraryDAO')
 
   module.exports = function (data, callback) {
-    /* console.log('Add books gets: ')
-    console.log(data) */
-
     // Make sure data is valid book
     if (typeof data.title !== 'string') {
       callback('Book not added due to title missing')
@@ -19,7 +16,7 @@
           if (bookid.length > 0) {
             callback('Error - ID taken')
           } else {
-            data.id = newID(books).toString()
+            data.id = newID(books).toString() // give the new book a unique id
             books.push(data)    // Add new book to book list
             LibraryDAO.writeXMLFile(books)     // Write book list to file via LibraryDAO.writeXMLFile
             callback('Book added to database')
@@ -32,6 +29,7 @@
   }
 }())
 
+// Check book list which id is higher, and return that id + 1
 var newID = function (books) {
   var id = 0
   books.forEach(element => {
